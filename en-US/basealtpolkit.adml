@@ -58,10 +58,10 @@ Possible values:
 Note: the possession of administrative rights in the context of PolicyKit is determined by its rules. By default, Alt asks for the password of the user in the "wheel" group.
 
       </string>
-      <string id="org-freedesktop-udisks2-filesystem-mount-other-seat">Permission to mount removable storage devices in remote sessions</string>
-      <string id="org-freedesktop-udisks2-filesystem-mount-other-seat_help">Permission to mount removable storage devices in remote sessions
+      <string id="org-freedesktop-udisks2-filesystem-mount-other-seat">Permission to mount storage devices from other workplaces</string>
+      <string id="org-freedesktop-udisks2-filesystem-mount-other-seat_help">Permission to mount storage devices from other workplaces
 
-This policy grants or restricts permissions to mount removable storage devices from a device connected to a remote workstation (for example, on another computer or remote session).
+The policy controls the permission to mount storage devices for all accounts that are not connected from the main workplace. By default, the system is configured with one workplace, which is transferred to the user who has passed authorization in the display manager. This user account is subject to the "File System Mount" policy. For all other accounts, the permission policy to mount from other workstations will work. You can check the current ownership of the workplace with the "loginctl" command.
 
 Disabled/Not configured — Permissions are determined by system settings. Default is «Auth_admin»
 
@@ -84,10 +84,10 @@ Possible values:
 Note: the possession of administrative rights in the context of PolicyKit is determined by its rules. By default, Alt asks for the password of the user in the "wheel" group.
 
       </string>
-      <string id="org-freedesktop-udisks2-filesystem-mount-other-seat-user">Permission to mount removable storage devices in remote sessions</string>
-      <string id="org-freedesktop-udisks2-filesystem-mount-other-seat-user_help">Permission to mount removable storage devices in remote sessions
+      <string id="org-freedesktop-udisks2-filesystem-mount-other-seat-user">Permission to mount storage devices from other workplaces</string>
+      <string id="org-freedesktop-udisks2-filesystem-mount-other-seat-user_help">Permission to mount storage devices from other workplaces
 
-This policy grants or restricts permissions to mount removable storage devices from a device connected to a remote workstation (for example, on another computer or remote session).
+The policy controls the permission to mount storage devices for all accounts that are not connected from the main workplace. By default, the system is configured with one workplace, which is transferred to the user who has passed authorization in the display manager. This user account is subject to the "File System Mount" policy. For all other accounts, the permission policy to mount from other workstations will work. You can check the current ownership of the workplace with the "loginctl" command.
 
 Disabled/Not configured — Permissions are determined by system settings. Default is «Auth_admin»
 
