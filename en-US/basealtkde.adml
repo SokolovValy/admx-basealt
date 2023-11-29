@@ -100,7 +100,17 @@ The "Block" option is necessary to prevent the user from changing this setting.
       </string>
 
       <string id="kde-wallpaper">Desktop background picture</string>
-      <string id="kde-wallpaper_help">This policy allows you to set images as your desktop background by specifying a file (for example, /usr/share/wallpapers/table.png, or smb://dc0/reGr/test.png (file from the shared directory)), containing the image.</string>
+      <string id="kde-wallpaper_help">This policy allows you to set an image as the desktop background by specifying the path to the image.
+
+Example paths:
+
+/usr/share/wallpapers/image.png — local path to the image;
+
+smb://computername/share/image.png — path to the image in the shared folder on the Linux server;
+
+\\computername\share\image.png — path to the image in the shared folder on the Windows server.
+
+      </string>
 
       <string id="kde-graphic-effects">Graphic effects</string>
       <string id="kde-graphic-effects_help">The policy configures enabling or disabling graphical effects on login.
