@@ -1,7 +1,7 @@
 %define _destdir %_datadir/PolicyDefinitions
 
 Name: admx-basealt
-Version: 0.1.13.6
+Version: 0.1.13.7
 Release: alt1
 
 Summary: BaseALT-specific ADMX policy templates
@@ -36,6 +36,18 @@ done
 %_destdir
 
 %changelog
+* Thu Mar 21 2024 Valentin Sokolov <sova@altlinux.org> 0.1.13.7-alt1
+- Added new group policies for DisplayManager polkit actions
+- Added new group policies for AccountManager polkit actions
+- Added new group policies for ColorManager polkit actions
+- Added new group policies for TimeDate polkit actions
+- Added new group policies for HostName polkit actions
+- Added new group policies for Systemd polkit actions
+- Added screenlocker group policy for KDE settings
+- Changed location KDE settings
+- The structure of the location of the KDE settings has been changed
+- Fix typos (closes: 49106)
+
 * Mon Mar 04 2024 Valentin Sokolov <sova@altlinux.org> 0.1.13.6-alt1
 - Added new group policies for Machine1 polkit actions
 - Added new group policies for Login1 polkit actions
