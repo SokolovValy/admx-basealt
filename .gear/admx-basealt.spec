@@ -1,7 +1,7 @@
 %define _destdir %_datadir/PolicyDefinitions
 
 Name: admx-basealt
-Version: 0.1.13.6
+Version: 0.1.14.0
 Release: alt1
 
 Summary: BaseALT-specific ADMX policy templates
@@ -36,6 +36,16 @@ done
 %_destdir
 
 %changelog
+* Mon Sep 16 2024 Valentin Sokolov <sova@altlinux.org> 0.1.14.0-alt1
+- Added new group policies for Systemd1 polkit actions
+- Added new group policies for Usdisks2 polkit actions
+- Added new group policies for Machine1 polkit actions
+- Added new group policies for TimeDate1 polkit actions
+- Added new group policies for ColorManager polkit actions
+- Added Force update policy
+- Added thunderbird machnism policy
+- Fix bugs (closes: 50612, 50340, 50012, 40903, 49790)
+
 * Mon Mar 04 2024 Valentin Sokolov <sova@altlinux.org> 0.1.13.6-alt1
 - Added new group policies for Machine1 polkit actions
 - Added new group policies for Login1 polkit actions
