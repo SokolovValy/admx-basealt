@@ -163,6 +163,10 @@ Example: If the suffix ".py" is specified in the suffix list, and the path "/usr
       <string id="gpupdate_networkshares_applier_help">The policy includes a mechanism for mapping network drives
 
       </string>
+      <string id="gpupdate_networkshares_applier_user">Mapping network drives for users</string>
+      <string id="gpupdate_networkshares_applier_user_help">The policy includes a mechanism for mapping network drives for users
+
+      </string>
       <string id="gpupdate_autofs_timer">Time until network directories are unmounted</string>
       <string id="gpupdate_autofs_timer_help">The policy allows you to set the time (in seconds) before unmounting network directories mounted using group policies.
 

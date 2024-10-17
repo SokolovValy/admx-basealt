@@ -164,6 +164,10 @@
       <string id="gpupdate_networkshares_applier_help">Политика включает механизм сопоставления сетевых дисков
 
       </string>
+      <string id="gpupdate_networkshares_applier_user">Сопоставление сетевых дисков для пользователей</string>
+      <string id="gpupdate_networkshares_applier_user_help">Политика включает механизм сопоставления сетевых дисков для пользователей
+
+      </string>
       <string id="gpupdate_autofs_timer">Время до размонтирования сетевых каталогов</string>
       <string id="gpupdate_autofs_timer_help">Политика позволяет установить время (в секундах) до размонтирования сетевых каталогов, примонтированных с помощью групповых политик.
 
